@@ -12,7 +12,7 @@
 
 
 ### 제출 양식
-- **파일명**: `problem_N_solution_이름`
+- **파일명**: `problem_N_solution_이름.sql`
 
 - **제출 기한**: 정기 세션 시작 전까지
 
