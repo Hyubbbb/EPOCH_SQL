@@ -1,0 +1,11 @@
+-- 코드를 입력하세요
+-- 생일이 3월인 여성 (MEMBER_ID, MEMBER_NAME, GENDER, DATE_OF_BIRTH)
+    -- 전화번호가 NULL이면 출력 제외
+-- 회원 ID 정렬(ASC)
+SELECT MEMBER_ID, MEMBER_NAME, GENDER, DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d')
+    FROM MEMBER_PROFILE
+    WHERE MONTH(DATE_OF_BIRTH) = '3'
+        AND GENDER = 'W'
+        AND TLNO IS NOT NULL
+    ORDER BY MEMBER_ID ASC
+    ;
