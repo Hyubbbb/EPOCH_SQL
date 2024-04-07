@@ -2,7 +2,7 @@
 > 팀원: 김동민, 김협, 송태원, 안가현, 이준호, 이지윤, 전상택
 
 ## 진행 방식
----
+
 프로그래머스 'SQL 고득점 Kit' 문제 중 일부를 선정해서 매주 1문제씩 각자 풀이하여 제출 (Optional 문제 선택 풀이)
 <https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit>
 
