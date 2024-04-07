@@ -10,13 +10,13 @@
 
 
 ### 제출 양식
-> ₩problem1_solution_이름₩
+> `problemN_solution_이름`
 
 
 
 
 ## 문항 주제
----
+
 1. `SELECT`
 2. `SUM`, `MAX`, `MIN`
 3. `GROUP BY`
@@ -28,7 +28,7 @@
 
 ## 진행 상황
 
-- 1주차(24.04.09) (`SELECT`- '3월에 태어난 여성 회원 목록 출력하기')
+- Problem1 (24.04.09) (`SELECT`- '3월에 태어난 여성 회원 목록 출력하기')
   - 참석 현황: (전원참석)
   - 지각:
   - 문항 링크: <https://school.programmers.co.kr/learn/courses/30/lessons/131120>
