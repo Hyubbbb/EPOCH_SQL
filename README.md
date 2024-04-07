@@ -12,7 +12,8 @@
 
 
 ### 제출 양식
-- **파일명**: `problem_N_solution_이름.sql`
+- **파일명**: `problem_N_solution_이름.sql` (_이름은 자유롭게 입력_)
+  - **Optional의 경우**: `optional_problem_N_solution_이름.sql`
 
 - **제출 기한**: 정기 세션 시작 전까지
 
