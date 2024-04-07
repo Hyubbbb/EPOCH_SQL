@@ -37,14 +37,14 @@
 
 파이팅! 🚀🚀🚀 
 
-- **Problem_1** (_24.04.09_) - `SELECT`
+- **1️⃣ Problem_1** (_24.04.09_) - `SELECT`
   - **문항 제목**: '3월에 태어난 여성 회원 목록 출력하기'
   - **참석 현황**: (전원참석)
   - **지각**:
   - **문항 링크**: [Problem_1](https://school.programmers.co.kr/learn/courses/30/lessons/131120)
   ---
   <details>
-  <summary>**Optional Problem 1**</summary>
+  <summary>✅ Optional Problem 1</summary>
   <div markdown="1">
 
   ---
