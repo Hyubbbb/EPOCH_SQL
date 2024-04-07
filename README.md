@@ -7,7 +7,7 @@
 프로그래머스 'SQL 고득점 Kit' 문제 중 일부를 선정해서 매주 1문제씩 각자 풀이하여 제출 
 - (Optional 문제 선택 풀이)
 
-[프로그래머스 'SQL 고득점 Kit' :arrow_upper_right:](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+[프로그래머스 'SQL 고득점 Kit'↗️](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 
 
@@ -32,8 +32,10 @@
 
 ## 진행 상황
 
+파이팅! 🚀🚀🚀 
+
 - **Problem_1** (_24.04.09_) - `SELECT`
   - **문항 제목**: '3월에 태어난 여성 회원 목록 출력하기'
   - **참석 현황**: (전원참석)
   - **지각**:
-  - **문항 링크**: <https://school.programmers.co.kr/learn/courses/30/lessons/131120>
+  - **문항 링크**: [Problem_1](https://school.programmers.co.kr/learn/courses/30/lessons/131120)
