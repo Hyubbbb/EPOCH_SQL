@@ -4,7 +4,8 @@
 
 
 ## 진행 방식
-프로그래머스 'SQL 고득점 Kit' 문제 중 일부를 선정해서 매주 1문제씩 각자 풀이하여 제출 
+프로그래머스 'SQL 고득점 Kit' 문제 중 일부를 선정해서 매주 ~1문제~ 2문제씩 각자 풀이하여 제출 
+- `매주 1문제` ➡️ `매주 2문제` (수정: 4월 30일)
 - (Optional 문제 선택 풀이)
 
 - [프로그래머스 'SQL 고득점 Kit'↗️](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
@@ -73,6 +74,9 @@
   </div>
   </details>
 ---
+
+
+
 - **2️⃣ Problem_2** (_24.04.30_) - `JOIN`
   - **문항 제목**: '없어진 기록 찾기'
   - **참석 현황**: 전원 참석 💫
@@ -119,3 +123,41 @@
 ---
 
 
+- **3️⃣ Problem_3_1** (_24.05.07_) - `JOIN`
+  - **문항 제목**: '주문량이 많은 아이스크림들 조회하기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_3_1](https://school.programmers.co.kr/learn/courses/30/lessons/133027)
+- **3️⃣ Problem_3_2** (_24.05.07_) - `SELECT`
+  - **문항 제목**: '서울에 위치한 식당 목록 출력하기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_3_2](https://school.programmers.co.kr/learn/courses/30/lessons/131118)
+  ---
+
+  <details>
+  <summary>✅ Optional_3</summary>
+  <div markdown="1">
+
+  ---
+  - **Optional_3_1** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '최댓값 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_3_1](https://school.programmers.co.kr/learn/courses/30/lessons/59415)
+  ---
+
+  - **Optional_3_2** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '최솟값 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_3_2](https://school.programmers.co.kr/learn/courses/30/lessons/59038)
+  ---
+  
+  - **Optional_3_3** - `GROUP BY`
+  - **문항 제목**: '조건에 맞는 사용자와 총 거래금액 조회하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_3_3](https://school.programmers.co.kr/learn/courses/30/lessons/164668)
+  ---
+  
+  </div>
+  </details>
+---
