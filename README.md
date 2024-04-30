@@ -16,10 +16,10 @@
 
 ### 제출 양식
 - **제출 경로**:
-  1. **Essential**: `EPOCH_SQL/주제(SELECT 등)/Problem_N`
+  1. **Essential**: `EPOCH_SQL/주제(SELECT 등)/Problem_N_n`
   2. **Optional**: `EPOCH_SQL/주제(SELECT 등)/Optional_N_n`
 - **파일명**:
-  1. **Essential**: `problem_N_solution_이름.sql` (_이름은 자유롭게 입력_ )
+  1. **Essential**: `problem_N_n_solution_이름.sql` (_이름은 자유롭게 입력_ )
   2. **Optional**: `optional_N_n_solution_이름.sql` (_이름은 자유롭게 입력_ )
 
 - **제출 기한**: 화요일 14시
