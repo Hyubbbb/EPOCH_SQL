@@ -1,4 +1,4 @@
--- 코드를 입력하세요
+ -- 코드를 입력하세요
 SELECT J.FLAVOR
     FROM(SELECT SHIPMENT_ID, FLAVOR, SUM(TOTAL_ORDER) AS 'TOTAL_ORDER'
         FROM JULY 
