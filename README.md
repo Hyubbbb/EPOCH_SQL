@@ -122,7 +122,7 @@
   </details>
 ---
 
-
+<!--여기부터--> 
 - **3️⃣ Problem_3_1** (_24.05.07_) - `JOIN`
   - **문항 제목**: '주문량이 많은 아이스크림들 조회하기'
   - **참석 현황**: 
@@ -160,4 +160,46 @@
   
   </div>
   </details>
----
+--- 
+<!--여기까지-->
+
+<!--여기부터--> 
+- **3️⃣ Problem_4_1** (_24.05.14_) - `JOIN`
+  - **문항 제목**: '5월 식품들의 총매출 조회하기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_4_1](https://school.programmers.co.kr/learn/courses/30/lessons/131117)
+- **3️⃣ Problem_4_2** (_24.05.14_) - `JOIN`
+  - **문항 제목**: '특정 기간동안 대여 가능한 자동차들의 대여비용 구하기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_4_2](https://school.programmers.co.kr/learn/courses/30/lessons/157339)
+  ---
+
+  <details>
+  <summary>✅ Optional_4</summary>
+  <div markdown="1">
+
+  ---
+  - **Optional_4_1** - `IS NULL`
+  - **문항 제목**: 'NULL 처리하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_4_1](https://school.programmers.co.kr/learn/courses/30/lessons/59410)
+  ---
+
+  - **Optional_4_2** - `IS NULL`
+  - **문항 제목**: 'ROOT 아이템 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_4_2](https://school.programmers.co.kr/learn/courses/30/lessons/273710)
+  ---
+  
+  - **Optional_4_3** - `GROUP BY`
+  - **문항 제목**: '대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_4_3](https://school.programmers.co.kr/learn/courses/30/lessons/151139)
+  ---
+  
+  </div>
+  </details>
+--- 
+<!--여기까지-->
