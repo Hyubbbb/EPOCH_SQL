@@ -125,13 +125,13 @@
 <!--여기부터--> 
 - **3️⃣ Problem_3_1** (_24.05.07_) - `JOIN`
   - **문항 제목**: '주문량이 많은 아이스크림들 조회하기'
-  - **참석 현황**: 
-  - **지각**:
+  - **참석 현황**: 김동민, 김협, 송태원, 안가현, 이지윤, 전상택
+  - **지각**: 이준호
   - **문항 링크**: [Problem_3_1](https://school.programmers.co.kr/learn/courses/30/lessons/133027)
 - **3️⃣ Problem_3_2** (_24.05.07_) - `SELECT`
   - **문항 제목**: '서울에 위치한 식당 목록 출력하기'
-  - **참석 현황**: 
-  - **지각**:
+  - **참석 현황**: 김동민, 김협, 송태원, 안가현, 이지윤, 전상택
+  - **지각**: 이준호
   - **문항 링크**: [Problem_3_2](https://school.programmers.co.kr/learn/courses/30/lessons/131118)
   ---
 
@@ -142,19 +142,19 @@
   ---
   - **Optional_3_1** - `(SUM, MAX, MIN)`
   - **문항 제목**: '최댓값 구하기'
-  - **제출자**: 
+  - **제출자**: 김협, 안가현
   - **문항 링크**: [Optional_3_1](https://school.programmers.co.kr/learn/courses/30/lessons/59415)
   ---
 
   - **Optional_3_2** - `(SUM, MAX, MIN)`
   - **문항 제목**: '최솟값 구하기'
-  - **제출자**: 
+  - **제출자**: 김협, 안가현
   - **문항 링크**: [Optional_3_2](https://school.programmers.co.kr/learn/courses/30/lessons/59038)
   ---
   
   - **Optional_3_3** - `GROUP BY`
   - **문항 제목**: '조건에 맞는 사용자와 총 거래금액 조회하기'
-  - **제출자**: 
+  - **제출자**: 김협, 안가현
   - **문항 링크**: [Optional_3_3](https://school.programmers.co.kr/learn/courses/30/lessons/164668)
   ---
   
@@ -183,13 +183,13 @@
   ---
   - **Optional_4_1** - `IS NULL`
   - **문항 제목**: 'NULL 처리하기'
-  - **제출자**: 
+  - **제출자**: 김협
   - **문항 링크**: [Optional_4_1](https://school.programmers.co.kr/learn/courses/30/lessons/59410)
   ---
 
   - **Optional_4_2** - `IS NULL`
   - **문항 제목**: 'ROOT 아이템 구하기'
-  - **제출자**: 
+  - **제출자**: 김협
   - **문항 링크**: [Optional_4_2](https://school.programmers.co.kr/learn/courses/30/lessons/273710)
   ---
   
