@@ -1,0 +1,10 @@
+-- 프로그래머스 ROOT 아이템 구하기
+-- https://school.programmers.co.kr/learn/courses/30/lessons/273710
+
+SELECT I.ITEM_ID, I.ITEM_NAME
+FROM ITEM_INFO AS I
+JOIN ITEM_TREE AS T
+    ON I.ITEM_ID = T.ITEM_ID
+-- PARENT_ITEM_ID가 NULL 이어야 ROOT ITEM
+WHERE T.PARENT_ITEM_ID IS NULL
+ORDER BY I.ITEM_ID ASC
