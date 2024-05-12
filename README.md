@@ -142,19 +142,19 @@
   ---
   - **Optional_3_1** - `(SUM, MAX, MIN)`
   - **문항 제목**: '최댓값 구하기'
-  - **제출자**: 김협, 안가현
+  - **제출자**: 김협, 안가현, 전상택
   - **문항 링크**: [Optional_3_1](https://school.programmers.co.kr/learn/courses/30/lessons/59415)
   ---
 
   - **Optional_3_2** - `(SUM, MAX, MIN)`
   - **문항 제목**: '최솟값 구하기'
-  - **제출자**: 김협, 안가현
+  - **제출자**: 김협, 안가현, 전상택
   - **문항 링크**: [Optional_3_2](https://school.programmers.co.kr/learn/courses/30/lessons/59038)
   ---
   
   - **Optional_3_3** - `GROUP BY`
   - **문항 제목**: '조건에 맞는 사용자와 총 거래금액 조회하기'
-  - **제출자**: 김협, 안가현
+  - **제출자**: 김협, 안가현, 전상택
   - **문항 링크**: [Optional_3_3](https://school.programmers.co.kr/learn/courses/30/lessons/164668)
   ---
   
@@ -183,20 +183,79 @@
   ---
   - **Optional_4_1** - `IS NULL`
   - **문항 제목**: 'NULL 처리하기'
-  - **제출자**: 김협
+  - **제출자**: 김협, 전상택
   - **문항 링크**: [Optional_4_1](https://school.programmers.co.kr/learn/courses/30/lessons/59410)
   ---
 
   - **Optional_4_2** - `IS NULL`
   - **문항 제목**: 'ROOT 아이템 구하기'
-  - **제출자**: 김협
+  - **제출자**: 김협, 전상택
   - **문항 링크**: [Optional_4_2](https://school.programmers.co.kr/learn/courses/30/lessons/273710)
   ---
   
   - **Optional_4_3** - `GROUP BY`
   - **문항 제목**: '대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기'
-  - **제출자**: 
+  - **제출자**: 전상택, 김협
   - **문항 링크**: [Optional_4_3](https://school.programmers.co.kr/learn/courses/30/lessons/151139)
+  ---
+  
+  </div>
+  </details>
+--- 
+<!--여기까지-->
+
+<!--여기부터--> 
+- **3️⃣ Problem_5_1** (_24.05.21_) - `JOIN`
+  - **문항 제목**: '그룹별 조건에 맞는 식당 목록 출력하기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_5_1](https://school.programmers.co.kr/learn/courses/30/lessons/131124)
+- **3️⃣ Problem_5_2** (_24.05.21_) - `JOIN`
+  - **문항 제목**: '보호소에서 중성화한 동물'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_5_2](https://school.programmers.co.kr/learn/courses/30/lessons/59045)
+  ---
+
+  <details>
+  <summary>✅ Optional_5</summary>
+  <div markdown="1">
+
+  ---
+  - **Optional_5_1** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '동물 수 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_1](https://school.programmers.co.kr/learn/courses/30/lessons/59406)
+  ---
+
+  - **Optional_5_2** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '중복 제거하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_2](https://school.programmers.co.kr/learn/courses/30/lessons/59408)
+  ---
+  
+  - **Optional_5_3** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '조건에 맞는 아이템들의 가격의 총합 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_3](https://school.programmers.co.kr/learn/courses/30/lessons/273709)
+  ---
+
+  - **Optional_5_4** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '물고기 종류 별 대어 찾기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_4](https://school.programmers.co.kr/learn/courses/30/lessons/293261)
+  ---
+
+  - **Optional_5_5** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '잡은 물고기 중 가장 큰 물고기의 길이 구하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_5](https://school.programmers.co.kr/learn/courses/30/lessons/298515)
+  ---
+
+  - **Optional_5_6** - `(SUM, MAX, MIN)`
+  - **문항 제목**: '연도별 대장균 크기의 편차 구하기 '
+  - **제출자**: 
+  - **문항 링크**: [Optional_5_6](https://school.programmers.co.kr/learn/courses/30/lessons/299310)
   ---
   
   </div>
