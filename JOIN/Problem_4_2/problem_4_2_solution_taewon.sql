@@ -1,0 +1,24 @@
+-- 자동차 종류 별 대여 기간 종류 별 할인 정책 정보가 뭔 말이야 대체
+
+-- 1. 자동차 종류가 '세단' 또는 'SUV' 인 자동차 중
+-- 2. 2022년 11월 1일부터 2022년 11월 30일까지 대여 가능하고
+-- 3. 30일간의 대여 금액 = DAILY_FEE*30*(할인율) -> 50만원 이상 200만원 미만인 자동차
+-- 자동차 ID, 자동차 종류, 대여 금액(컬럼명: FEE) 리스트를 출력
+-- CRC, CRH, CRD라 하자
+
+SELECT CRC.CAR_ID, CRC.CAR_TYPE, FLOOR(CRC.DAILY_FEE * 30 * (1 - CDP.DISCOUNT_RATE / 100.0)) AS FEE
+FROM CAR_RENTAL_COMPANY_CAR CRC
+JOIN CAR_RENTAL_COMPANY_DISCOUNT_PLAN CDP ON CRC.CAR_TYPE = CDP.CAR_TYPE
+
+WHERE
+    CRC.CAR_TYPE IN ('세단', 'SUV') AND CDP.DURATION_TYPE = '30일 이상' AND NOT EXISTS (
+        SELECT 1
+        FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY CRH
+        WHERE CRH.CAR_ID = CRC.CAR_ID AND
+              (CRH.START_DATE <= '2022-11-30' AND CRH.END_DATE >= '2022-11-01') -- 대여 시작일은 최대 11/30일 전이어야하고, 대여 종료일은 최소 11월1일 이후여야 대여 기한 안에 포함되니까
+    )
+
+GROUP BY CRC.CAR_ID, CRC.CAR_TYPE, CRC.DAILY_FEE, CDP.DISCOUNT_RATE
+HAVING FLOOR(CRC.DAILY_FEE * 30 * (1 - CDP.DISCOUNT_RATE / 100.0)) >= 500000 AND FLOOR(CRC.DAILY_FEE * 30 * (1 - CDP.DISCOUNT_RATE / 100.0)) < 2000000
+ORDER BY
+    FEE DESC, CRC.CAR_TYPE ASC, CRC.CAR_ID DESC; -- 걍 순서대로
