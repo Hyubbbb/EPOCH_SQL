@@ -18,7 +18,7 @@ WHERE
               (h.START_DATE <= '2022-11-30' AND h.END_DATE >= '2022-11-01') -- 대여 시작일은 최대 11/30일 전이어야하고, 대여 종료일은 최소 11월1일 이후여야 대여 기한 안에 포함되니까
     )
 
-GROUP BY c.CAR_ID, c.CAR_TYPE, c.DAILY_FEE, p.DISCOUNT_RATE
+GROUP BY c.DAILY_FEE, p.DISCOUNT_RATE
 HAVING FLOOR(c.DAILY_FEE * 30 * (1 - p.DISCOUNT_RATE / 100.0)) >= 500000 AND FLOOR(c.DAILY_FEE * 30 * (1 - p.DISCOUNT_RATE / 100.0)) < 2000000
 ORDER BY
     FEE DESC, c.CAR_TYPE ASC, c.CAR_ID DESC; -- 걍 순서대로
