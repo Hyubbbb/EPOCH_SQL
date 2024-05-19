@@ -1,0 +1,16 @@
+-- 프로그래머스 연도별 대장균 크기의 편차 구하기
+-- https://school.programmers.co.kr/learn/courses/30/lessons/299310
+
+SELECT G.YEAR AS YEAR,
+       (G.MAX_SIZE - E.SIZE_OF_COLONY) AS YEAR_DEV,
+       E.ID
+-- 같은 연도안에서 가장 큰 대장균의 크기를 가져와야 한다
+-- GROUP BY YEAR(DIFFERENTIATION_DATE)를 사용한 Inline View 활용
+FROM (
+    SELECT YEAR(DIFFERENTIATION_DATE) AS YEAR, MAX(SIZE_OF_COLONY) AS MAX_SIZE
+    FROM ECOLI_DATA
+    GROUP BY YEAR(DIFFERENTIATION_DATE)
+    ) AS G
+JOIN ECOLI_DATA AS E
+    ON G.YEAR = YEAR(E.DIFFERENTIATION_DATE)
+ORDER BY YEAR, YEAR_DEV
