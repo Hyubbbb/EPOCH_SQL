@@ -289,31 +289,31 @@
   ---
   - **Optional_6_1** - `IS NULL`
   - **문항 제목**: '이름이 없는 동물의 아이디'
-  - **제출자**: 
+  - **제출자**: 김협, 전상택
   - **문항 링크**: [Optional_6_1](https://school.programmers.co.kr/learn/courses/30/lessons/59039)
   ---
 
   - **Optional_6_2** - `IS NULL`
   - **문항 제목**: '이름이 있는 동물의 아이디'
-  - **제출자**: 
+  - **제출자**: 김협, 전상택
   - **문항 링크**: [Optional_6_2](https://school.programmers.co.kr/learn/courses/30/lessons/59407)
   ---
   
   - **Optional_6_3** - `IS NULL`
   - **문항 제목**: '나이 정보가 없는 회원 수 구하기'
-  - **제출자**: 
+  - **제출자**: 김협, 전상택
   - **문항 링크**: [Optional_6_3](https://school.programmers.co.kr/learn/courses/30/lessons/131528)
   ---
 
   - **Optional_6_4** - `IS NULL`
   - **문항 제목**: '업그레이드 할 수 없는 아이템 구하기'
-  - **제출자**: 
+  - **제출자**: 김협
   - **문항 링크**: [Optional_6_4](https://school.programmers.co.kr/learn/courses/30/lessons/273712)
   ---
 
   - **Optional_6_5** - `IS NULL`
   - **문항 제목**: '잡은 물고기의 평균 길이 구하기'
-  - **제출자**: 
+  - **제출자**: 김협
   - **문항 링크**: [Optional_6_5](https://school.programmers.co.kr/learn/courses/30/lessons/293259)
   ---
   
@@ -322,6 +322,52 @@
 --- 
 <!--여기까지  -->
 
+<!--여기부터--> 
+- **7️⃣ Problem_7_1** (_24.06.04_) - `SELECT`
+  - **문항 제목**: '멸종위기의 대장균 찾기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_7_1](https://school.programmers.co.kr/learn/courses/30/lessons/301651)
+- **7️⃣ Problem_7_2** (_24.06.04_) - `JOIN`
+  - **문항 제목**: 'FrontEnd 개발자 찾기'
+  - **참석 현황**: 
+  - **지각**:
+  - **문항 링크**: [Problem_7_2](https://school.programmers.co.kr/learn/courses/30/lessons/276035)
+  ---
+
+  <details>
+  <summary>✅ Optional_7</summary>
+  <div markdown="1">
+
+  ---
+  - **Optional_7_1** - `GROUP BY`
+  - **문항 제목**: '성분으로 구분한 아이스크림 총 주문량'
+  - **제출자**: 
+  - **문항 링크**: [Optional_7_1](https://school.programmers.co.kr/learn/courses/30/lessons/133026)
+  ---
+
+  - **Optional_7_2** - `GROUP BY`
+  - **문항 제목**: '즐겨찾기가 가장 많은 식당 정보 출력하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_7_2](https://school.programmers.co.kr/learn/courses/30/lessons/131123)
+  ---
+  
+  - **Optional_7_3** - `GROUP BY`
+  - **문항 제목**: '카테고리 별 도서 판매량 집계하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_7_3](https://school.programmers.co.kr/learn/courses/30/lessons/144855)
+  ---
+
+  - **Optional_7_4** - `GROUP BY`
+  - **문항 제목**: '저자 별 카테고리 별 매출액 집계하기'
+  - **제출자**: 
+  - **문항 링크**: [Optional_7_4](https://school.programmers.co.kr/learn/courses/30/lessons/144856)
+  ---
+  
+  </div>
+  </details>
+--- 
+<!--여기까지-->
 
 
 
