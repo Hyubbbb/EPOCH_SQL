@@ -3,7 +3,7 @@ SELECT COUNT(*) AS 'COUNT', RANK() OVER (ORDER BY PARENT_ID) AS GENERATION
     WHERE ID NOT IN (SELECT PARENT_ID FROM ECOLI_DATA WHERE PARENT_ID IS NOT NULL) 
     GROUP BY PARENT_ID
     ORDER BY GENERATION
--- 이것도 답이 똑같이 나오고 테스트 결과 성공이라고 뜨는데 제출 후 채점을 하면 틀렸대요.... 시무룩..
+-- 이것도 답이 똑같이 나오고 테스트 결과 성공이라고 뜨는데 제출 후 채점을 하면 틀렸대요.... 시무룩.. 
 
 
 -- 두번째 답
