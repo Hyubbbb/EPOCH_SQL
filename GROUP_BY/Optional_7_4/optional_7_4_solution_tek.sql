@@ -1,0 +1,17 @@
+-- 프로그래머스 저자 별 카테고리 별 매출액 집계하기
+-- https://school.programmers.co.kr/learn/courses/30/lessons/144856
+
+SELECT BS.AUTHOR_ID, A.AUTHOR_NAME, BS.CATEGORY, BS.TOTAL_SALES
+-- BOOK, BOOK_SALES 테이블 JOIN 한 테이블을 Subquery로 불러온다 (Inline View)
+FROM (
+    SELECT B.AUTHOR_ID, B.CATEGORY, SUM(S.SALES*B.PRICE) AS TOTAL_SALES
+    FROM BOOK AS B
+    LEFT JOIN BOOK_SALES AS S
+        ON S.BOOK_ID = B.BOOK_ID
+    -- 2022년 1월
+    WHERE MONTH(S.SALES_DATE) = 1
+    GROUP BY B.AUTHOR_ID, B.CATEGORY
+    ) AS BS
+INNER JOIN AUTHOR AS A
+    ON BS.AUTHOR_ID = A.AUTHOR_ID
+ORDER BY BS.AUTHOR_ID, BS.CATEGORY DESC
