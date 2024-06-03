@@ -6,7 +6,7 @@ SELECT COUNT(*) AS 'COUNT', RANK() OVER (ORDER BY PARENT_ID) AS GENERATION
 -- 이것도 답이 똑같이 나오고 테스트 결과 성공이라고 뜨는데 제출 후 채점을 하면 틀렸대요.... 시무룩..
 
 
--- 질문하기와 구글의 도움을 받았다,,
+-- 두번째 답
 WITH RECURSIVE GENERATION_TABLE AS(
     SELECT ID, PARENT_ID, 1 AS GENERATION
         FROM ECOLI_DATA
