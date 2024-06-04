@@ -4,6 +4,6 @@
 
 SELECT DISTINCT d.ID, d.EMAIL, d.FIRST_NAME, d.LAST_NAME
 FROM DEVELOPERS d
-JOIN SKILLCODES s ON d.SKILL_CODE & s.CODE != 0  -- 결과가 0이 아니라면, 해당 코드가 SKILL_CODE 내에 존재함을 의미합니다
-WHERE s.CATEGORY = 'Front End'  -- 'Front End'
+JOIN SKILLCODES s ON d.SKILL_CODE & s.CODE != 0  -- 결과가 0이 아니라면, 해당 코드가 SKILL_CODE 내에 존재함을 의미
+WHERE s.CATEGORY = 'Front End' 
 ORDER BY d.ID;
