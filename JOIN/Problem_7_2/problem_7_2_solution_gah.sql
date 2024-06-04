@@ -6,3 +6,13 @@ WHERE SKILL_CODE = (SELECT SUM(CODE)
                     FROM SKILLCODES
                     WHERE CATEGORY = 'Front End')
 ORDER BY ID;
+
+
+-- & 연산자를 터득한 원숭이 가현
+
+SELECT DISTINCT ID, EMAIL, FIRST_NAME, LAST_NAME
+FROM DEVELOPERS
+WHERE SKILL_CODE & (SELECT SUM(CODE)
+                    FROM SKILLCODES
+                    WHERE CATEGORY = 'Front End')
+ORDER BY ID;
