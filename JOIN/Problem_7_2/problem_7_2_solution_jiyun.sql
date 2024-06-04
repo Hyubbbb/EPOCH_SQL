@@ -1,0 +1,6 @@
+-- 코드를 작성해주세요
+SELECT DISTINCT ID, EMAIL, FIRST_NAME, LAST_NAME
+    FROM DEVELOPERS, SKILLCODES
+    WHERE SKILL_CODE & CODE AND CATEGORY = "Front End"
+    -- 조건: Front End의 코드와 같은 비트를 가진 SKILL_CODE를 가진 사람
+    ORDER BY ID
